@@ -1,0 +1,29 @@
+{
+  "name": "performance-gulp-and-npm-series",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://MasatoMakino@github.com/MasatoMakino/performance-gulp-and-npm-series.git",
+  "author": "MasatoMakino <unagiinu.g@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "compression": "^1.7.4",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "prettier": "^1.17.1",
+    "webpack": "^4.31.0"
+  },
+  "scripts": {
+    "npmSeries": "npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp",
+    "npmSeriesSimple": "npx gulp -f gulpfile.simple.js && npx gulp -f gulpfile.simple.js && npx gulp -f gulpfile.simple.js && npx gulp -f gulpfile.simple.js && npx gulp -f gulpfile.simple.js && npx gulp -f gulpfile.simple.js && npx gulp -f gulpfile.simple.js && npx gulp -f gulpfile.simple.js && npx gulp -f gulpfile.simple.js && npx gulp -f gulpfile.simple.js",
+    "npmParallel": "npx gulp & npx gulp & npx gulp & npx gulp & npx gulp & npx gulp & npx gulp & npx gulp & npx gulp & npx gulp",
+    "gulpSeries": "npx gulp seriesTask",
+    "gulpParallel": "npx gulp parallelTask",
+    "gulpSeriesCLI": "npx gulp task task task task task task task task task task --series",
+    "gulpParallelCLI": "npx gulp task task task task task task task task task task"
+  }
+}
