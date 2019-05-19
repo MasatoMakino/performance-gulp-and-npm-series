@@ -20,10 +20,15 @@
   "scripts": {
     "npmSeries": "npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp",
     "npmSeriesSimple": "npx gulp -f gulpfile.simple.js && npx gulp -f gulpfile.simple.js && npx gulp -f gulpfile.simple.js && npx gulp -f gulpfile.simple.js && npx gulp -f gulpfile.simple.js && npx gulp -f gulpfile.simple.js && npx gulp -f gulpfile.simple.js && npx gulp -f gulpfile.simple.js && npx gulp -f gulpfile.simple.js && npx gulp -f gulpfile.simple.js",
+    "npmSeriesEmpty": "npx gulp -f gulpfile.empty.js && npx gulp -f gulpfile.empty.js && npx gulp -f gulpfile.empty.js && npx gulp -f gulpfile.empty.js && npx gulp -f gulpfile.empty.js && npx gulp -f gulpfile.empty.js && npx gulp -f gulpfile.empty.js && npx gulp -f gulpfile.empty.js && npx gulp -f gulpfile.empty.js && npx gulp -f gulpfile.empty.js",
     "npmParallel": "npx gulp & npx gulp & npx gulp & npx gulp & npx gulp & npx gulp & npx gulp & npx gulp & npx gulp & npx gulp",
+    "npmParallelSimple": "npx gulp -f gulpfile.simple.js & npx gulp -f gulpfile.simple.js & npx gulp -f gulpfile.simple.js & npx gulp -f gulpfile.simple.js & npx gulp -f gulpfile.simple.js & npx gulp -f gulpfile.simple.js & npx gulp -f gulpfile.simple.js & npx gulp -f gulpfile.simple.js & npx gulp -f gulpfile.simple.js & npx gulp -f gulpfile.simple.js",
     "gulpSeries": "npx gulp seriesTask",
     "gulpParallel": "npx gulp parallelTask",
     "gulpSeriesCLI": "npx gulp task task task task task task task task task task --series",
-    "gulpParallelCLI": "npx gulp task task task task task task task task task task"
+    "gulpParallelCLI": "npx gulp task task task task task task task task task task",
+
+    "nodeSeries": "node console.js && node console.js && node console.js && node console.js && node console.js && node console.js && node console.js && node console.js && node console.js && node console.js",
+    "nodeParallel": "node console.js & node console.js & node console.js & node console.js & node console.js & node console.js & node console.js & node console.js & node console.js & node console.js"
   }
 }
