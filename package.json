@@ -1,6 +1,6 @@
 {
   "name": "performance-gulp-and-npm-series",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "repository": "https://MasatoMakino@github.com/MasatoMakino/performance-gulp-and-npm-series.git",
   "author": "MasatoMakino <unagiinu.g@gmail.com>",
@@ -9,13 +9,13 @@
     "gulp": "^4.0.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.5",
+    "browser-sync": "^2.26.7",
     "compression": "^1.7.4",
-    "gulp-imagemin": "^5.0.3",
+    "gulp-imagemin": "^6.0.0",
     "gulp-plumber": "^1.2.1",
     "gulp-sass": "^4.0.2",
-    "prettier": "^1.17.1",
-    "webpack": "^4.31.0"
+    "prettier": "^1.18.2",
+    "webpack": "^4.33.0"
   },
   "scripts": {
     "npmSeries": "npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp",
