@@ -15,7 +15,7 @@
     "gulp-plumber": "^1.2.1",
     "gulp-sass": "^4.0.2",
     "prettier": "^1.18.2",
-    "webpack": "^4.33.0"
+    "webpack": "^4.37.0"
   },
   "scripts": {
     "npmSeries": "npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp",
@@ -27,7 +27,6 @@
     "gulpParallel": "npx gulp parallelTask",
     "gulpSeriesCLI": "npx gulp task task task task task task task task task task --series",
     "gulpParallelCLI": "npx gulp task task task task task task task task task task",
-
     "nodeSeries": "node console.js && node console.js && node console.js && node console.js && node console.js && node console.js && node console.js && node console.js && node console.js && node console.js",
     "nodeParallel": "node console.js & node console.js & node console.js & node console.js & node console.js & node console.js & node console.js & node console.js & node console.js & node console.js"
   }
