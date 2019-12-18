@@ -11,11 +11,11 @@
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "compression": "^1.7.4",
-    "gulp-imagemin": "^6.0.0",
+    "gulp-imagemin": "^6.2.0",
     "gulp-plumber": "^1.2.1",
     "gulp-sass": "^4.0.2",
-    "prettier": "^1.18.2",
-    "webpack": "^4.37.0"
+    "prettier": "^1.19.1",
+    "webpack": "^4.41.3"
   },
   "scripts": {
     "npmSeries": "npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp",
