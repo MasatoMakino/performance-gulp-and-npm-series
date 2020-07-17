@@ -9,7 +9,7 @@
     "gulp": "^4.0.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.9",
     "compression": "^1.7.4",
     "gulp-imagemin": "^7.1.0",
     "gulp-plumber": "^1.2.1",
