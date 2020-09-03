@@ -1,7 +1,6 @@
 const { series, parallel } = require("gulp");
 const webpack = require("webpack");
 const sass = require("gulp-sass");
-const imagemin = require("gulp-imagemin");
 const plumber = require("gulp-plumber");
 const browserSync = require("browser-sync").create();
 const compress = require("compression");
