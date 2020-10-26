@@ -9,12 +9,12 @@
     "gulp": "^4.0.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.12",
+    "browser-sync": "^2.26.13",
     "compression": "^1.7.4",
     "gulp-plumber": "^1.2.1",
     "gulp-sass": "^4.1.0",
-    "prettier": "^2.1.1",
-    "webpack": "^4.44.1"
+    "prettier": "^2.1.2",
+    "webpack": "^5.2.0"
   },
   "scripts": {
     "npmSeries": "npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp && npx gulp",
